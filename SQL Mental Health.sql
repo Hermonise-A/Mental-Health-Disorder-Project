@@ -4,7 +4,8 @@ SELECT *
 FROM mental_health..mental_data_full 
 
 --- Upon doing a quick overview in Excel I noticed that "Entity" was reported amongst region/country information
---- This utlimately indicated the start of new table 
+--- This utlimately indicated the start of a new table 
+
 --- Identify the rows that indicate a new table has begun based off "Entity"
 
 SELECT Id
@@ -14,7 +15,7 @@ ORDER BY Id
 
 --- DATA CLEANING 
 
----I would now like to separate this the 4 datasets to accurately be able to analyze information 
+---I would now like to separate the 4 datasets to accurately be able to analyze information 
 
 
 --- Creating new table using data from orginal source with only certain range of rows between 0 and 6467
