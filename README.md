@@ -1,1 +1,1 @@
-# Mental-Health-Disorder-Project
+# Mental Health Disorder Project
